@@ -1,0 +1,42 @@
+// HEADER
+/* HEADER */
+header {
+    background-color: $colores;
+    position: sticky; 
+    z-index: 1;
+    .logo {
+        display: none;
+    }
+    #btn_menu {
+        display: none;
+    }
+    label {
+        display: none;
+    }
+    nav {
+        ul {
+            @include bloque(flex, space-between, center);
+            // display: flex;
+            // justify-content: space-between;
+            // align-items: center;
+            padding-right: 12%;
+            margin-bottom: 0;
+            padding-left: 0;
+        }
+        li {
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: large;
+                &:hover {
+                    text-decoration: underline;
+                }
+                img {
+                    height: 10rem;
+                    padding: 2%;
+                }
+            }
+        }
+    }
+}

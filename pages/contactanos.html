@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../medios/logo-header.jpg" type="image/x-icon">
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Link a mi CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>CONTACTANOS | SNEAKER STORE</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="../medios/logo-header.jpg" alt="logo-zapatillas">
+        <input type="checkbox" id="btn_menu">
+        <label for="btn_menu"><img src="../medios/menu-hamburguer.png" alt="menu-hamburguesa"></label>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="../index.html"><img class="logo-hidden" src="../medios/logo-header.jpg" alt="logo-zapatillas"></a>
+                </li>
+                <li>
+                    <a href="../index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="#">CONTACTANOS</a>
+                </li>
+                <li>
+                    <a href="./catalogo.html">CATÁLOGO</a>
+                </li>
+                <li>
+                    <a href="./novedades.html">NOVEDADES</a>
+                </li>
+                <li>
+                    <a href="./locales.html">LOCALES</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-contacto row">
+        <h1 class="p-3 text-decoration-underline text-center">CONTACTO</h1>
+        <section class="section-contacto col-sm-12 col-md-6">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input class="text-center border-radius" type="text" name="" id="nombre" placeholder="José Perdomo">
+            </div>
+            <div>
+                <label for="número">Teléfono:</label>
+                <input class="text-center border-radius" type="number" name="" id="número" placeholder="1156891425">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input class="text-center border-radius" type="email" name="" id="email" placeholder="ejemplo@gmail.com">
+            </div>
+            <div>
+                <p>Seleccione un motivo de contacto:</p>
+                <select class="border-radius" name="Motivo de Contacto" id="">
+                    <option value=""></option>
+                    <option value="">Sugerencia</option>
+                    <option value="">Queja</option>
+                    <option value="">Otro</option>
+                </select>
+            </div>
+            <div>
+                <p>Dejanos tu mensaje:</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <input class="border-radius" type="submit" value="Enviar">
+            </div>
+        </section>
+        <section class="mapa-de-contacto col-sm-12 col-md-6">
+            <h2 class="text-decoration-underline text-center">Local</h2>
+            <iframe class="p-3 mapa-contacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.755976352095!2d-58.36733122427086!3d-34.635606459183
+            016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334b6925e5473%3A0x1ca5b2748858b40d!2sEstadio%20Alberto%20J.%20Arm
+            ando-%20La%20Bombonera!5e0!3m2!1ses-419!2sar!4v1700815509151!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" a
+            llowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <section class="whatsapp">
+            <a href="https://www.whatsapp.com/" target="_blank"><img src="../medios/icono-wpp.png" alt="logo-whatsapp"></a>
+        </section>
+        <section class="d-flex">
+            <div>
+                <img src="../medios/logo-header.jpg" alt="logo-zapatillas">
+            </div>
+            <div class="text">
+                <p class="text-footer">DIRECCIÓN</p>
+                <p>Av Pte Juan Domingo Perón 1165.</p>
+            </div>
+            <div class="text">
+                <p class="text-footer">TELÉFONO</p>
+                <p>011 4443 0063</p>
+            </div>
+            <div class="text">
+                <p class="text-footer">HORARIOS</p>
+                <p>Lunes a Viernes: 7 a 17 hs</p>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
